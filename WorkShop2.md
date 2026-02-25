@@ -1,14 +1,14 @@
-The-Data-Center-Guardian
+# The-Data-Center-Guardian
 Task 2
 
-🛡️ Sistema de Monitoreo: Guardián de Infraestructura v2.0
+# 🛡️ Sistema de Monitoreo: Guardián de Infraestructura v2.0
 ¡Bienvenido nuevamente al equipo de monitoreo! Como Programador técnico, tu misión ahora es evolucionar el sistema del reto anterior para que pueda diagnosticar **múltiples servidores automáticamente**, utilizando listas, matrices y procesamiento masivo de datos.
 
 Este reto pondrá a prueba tu capacidad para trabajar con estructuras de datos, automatizar procesos mediante bucles y aplicar lógica condicional sobre múltiples registros.
 
 ---
 
-📋 Requerimientos del Reto
+# 📋 Requerimientos del Reto
 
 Deberás crear un archivo llamado **main.py** desde cero y programar las siguientes funcionalidades:
 
@@ -43,7 +43,7 @@ Para cada servidor el programa debe solicitar:
 
 La temperatura del rack debe generarse automáticamente usando el método **random**.
 
-⚠️ Condición obligatoria:
+# ⚠️ Condición obligatoria:
 La temperatura debe estar en un rango entre **40 y 120 grados Celsius**.
 
 ---
@@ -52,16 +52,16 @@ La temperatura debe estar en un rango entre **40 y 120 grados Celsius**.
 
 Tu script debe evaluar cada servidor dentro de la matriz y mostrar los siguientes resultados:
 
-⚡ Control de Energía:
+# ⚡ Control de Energía:
 Si el consumo es mayor a 400W, calcular y mostrar cuánto exceso de energía se está consumiendo.
 
-🌡️ Alerta Crítica (Lógica Pro):
+# 🌡️ Alerta Crítica (Lógica Pro):
 
 * Si la Temperatura > 75°C Y la Carga de CPU > 80%: Mostrar [PELIGRO CRÍTICO]: Apagado de emergencia inminente.
 * Si solo una de las condiciones se cumple: Mostrar [ADVERTENCIA]: Rendimiento comprometido.
 * Si ambas están en rangos normales: Mostrar [ESTADO]: Operación normal.
 
-📊 Capacidad de Reserva:
+# 📊 Capacidad de Reserva:
 Si el servidor está al 90% de carga o más, informar cuántos procesos adicionales puede recibir antes de colapsar (considerando que cada proceso nuevo consume un 2%).
 
 ---
@@ -86,15 +86,15 @@ Al finalizar, imprimir el resumen de servidores en riesgo.
 
 ---
 
-🌟 Bonus (Puntos Extra)
+# 🌟 Bonus (Puntos Extra)
 
 * Usar la librería math para redondear procesos restantes.
 * Usar f-strings para todos los reportes.
-* Mantener código limpio y legible siguiendo principios vistos en clase.
+* Mantener código limpio y legible siguiendo prigitncipios vistos en clase.
 
 ---
 
-🚀 Instrucciones de Entrega
+# 🚀 Instrucciones de Entrega
 
 Código: Desarrolla la solución usando listas, matrices y bucles.
 Envío:
@@ -105,4 +105,4 @@ Envío:
 
 ---
 
-"Un buen código no es solo el que funciona, sino el que automatiza el trabajo que antes hacías manualmente."
+# "Un buen código no es solo el que funciona, sino el que automatiza el trabajo que antes hacías manualmente."
